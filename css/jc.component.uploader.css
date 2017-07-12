@@ -1,0 +1,29 @@
+		.jc_fileUploader_progress_number{
+			width:50px;
+			border:0 none;
+			background-color: transparent;
+			-webkit-appearance:none;
+			display:inline-block;
+			vertical-align: middle;
+		}
+		.jc_fileUploader_progress_wrap{
+			background-color: #ccc;
+			display:inline-block;
+			height:20px;
+			width:300px;
+			vertical-align: middle;
+		}
+		.jc_fileUploader_progress{
+			background-color: rgba(0,255,0,.5);
+			width:0;
+			height:100%;
+			padding:0;
+			margin:0;
+		}
+		.jc_fileClassName{
+			width:170px;
+		}
+		.jc_fileUploader_status{
+			margin-left:10px;
+		}
+		
