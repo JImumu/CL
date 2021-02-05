@@ -1,7 +1,7 @@
 	//实例化WafFileUploader对象
 	var fileUploader = new jc.js.util.FileUploader();
 
-	fileUploader.requestUrl = "http://localhost:2000/upFile";
+	fileUploader.requestUrl = "//jsonplaceholder.typicode.com/posts/";
 	fileUploader.filePathClassName = ".filePath";
 	fileUploader.fileMaxSize = 2048000;
 	//fileUploader.requestUrl = "http://127.0.0.1:8080/jc.content.open/single_file_recv";
@@ -16,7 +16,7 @@
 	//实例化WafFileUploader对象
 	var fileUploader2 = new jc.js.util.FileUploader(".jc_file_uploader_wrap_sub_img2");
 
-	fileUploader2.requestUrl = "http://localhost:2000/upFilex";
+	fileUploader2.requestUrl = "//jsonplaceholder.typicode.com/posts/";
 	fileUploader2.filePathClassName = ".filePath";
 	//fileUploader2.fileMaxSize = 2048000;
 
